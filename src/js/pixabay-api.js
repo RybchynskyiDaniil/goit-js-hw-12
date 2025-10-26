@@ -18,7 +18,7 @@ export async function getImagesByQuery(query,page) {
         
     return response.data    
     }
-    catch{(error => {
-    console.log(error.message); 
-    })}
+    catch (error) {
+    console.log(error.message);
+}
 }
