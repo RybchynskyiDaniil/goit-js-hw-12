@@ -64,3 +64,15 @@ if (!refs.loaderEl.classList.contains("visually-hidden")) {
         refs.loaderEl.classList.add("visually-hidden")
     }
 }
+
+export function showLoadMoreButton() {
+   if (refs.loadMoreButton.classList.contains("visually-hidden")) {
+        refs.loadMoreButton.classList.remove("visually-hidden")
+    } 
+ }
+
+export function hideLoadMoreButton() {
+if (!refs.loadMoreButton.classList.contains("visually-hidden")) {
+        refs.loadMoreButton.classList.add("visually-hidden")
+    } 
+}
