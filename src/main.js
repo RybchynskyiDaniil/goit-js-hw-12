@@ -1,7 +1,3 @@
-
-import { handleLoadMore, handleSubmit } from "./js/handlers";
-import { refs } from "./js/refs";
-import { hideLoader } from "./js/render-functions";
-hideLoader()
+import { handleSubmit } from "./js/handlers";
+import {refs } from "./js/refs";
 refs.formEl.addEventListener("submit", handleSubmit);
-refs.loadMoreButton.addEventListener("click", handleLoadMore);
